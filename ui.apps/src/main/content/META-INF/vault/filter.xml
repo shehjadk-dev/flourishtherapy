@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/flourishtherapy/clientlibs"/>
+    <filter root="/apps/flourishtherapy/components"/>
+    <filter root="/apps/flourishtherapy/i18n"/>
+</workspaceFilter>
