@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-28T19:13:35.837-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/flourishtherapy/settings/wcm/templates/blank"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Demo Training Page"
+        sling:resourceType="flourishtherapy/components/page"
+        navTitle="Nav title"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="flourishtherapy/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="flourishtherapy/components/container"
+                layout="responsiveGrid">
+                <par3_copy
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="flourishtherapy/components/container">
+                    <newcomponent
+                        jcr:created="{Date}2022-04-26T18:42:37.171-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-26T18:42:37.171-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="flourishtherapy/components/training/newcomponent"/>
+                    <accordion
+                        jcr:created="{Date}2022-04-27T12:27:23.292-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T12:27:23.292-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="flourishtherapy/components/training/accordion"/>
+                    <heading
+                        jcr:created="{Date}2022-04-28T18:38:17.012-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-28T19:13:35.833-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="flourishtherapy/components/training/heading"
+                        headingtext="This is my heading component"
+                        headingtype="p"
+                        herotype="h4"/>
+                    <button
+                        jcr:created="{Date}2022-04-27T12:40:02.377-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-28T18:31:19.821-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="flourishtherapy/components/training/button"
+                        age="ahfsdkj"
+                        button1color="warning"
+                        button1text="Shehjad"
+                        button2color="danger btn-lg"
+                        button2text="Aria Aria Aira Aieoraihg"
+                        button3color="outline-info"
+                        button3text="Abby"
+                        button4color="outline-dark"
+                        button4text="Sue"/>
+                    <listgroup
+                        jcr:created="{Date}2022-04-27T12:42:39.366-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T12:42:39.366-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="flourishtherapy/components/training/listgroup"/>
+                    <card
+                        jcr:created="{Date}2022-04-27T12:45:47.999-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T12:45:47.999-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="flourishtherapy/components/training/card"/>
+                    <carousel
+                        jcr:created="{Date}2022-04-27T12:52:48.922-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T12:52:48.922-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="flourishtherapy/components/training/carousel"/>
+                    <toast
+                        jcr:created="{Date}2022-04-27T13:15:12.995-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-27T13:15:12.995-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="flourishtherapy/components/training/toast"/>
+                </par3_copy>
+                <accordion
+                    jcr:created="{Date}2022-04-27T17:15:54.731-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-27T17:15:54.731-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="flourishtherapy/components/training/accordion"/>
+                <textimage
+                    jcr:created="{Date}2022-04-27T17:16:11.704-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-27T17:16:51.408-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="flourishtherapy/components/training/textimage"
+                    alttext="2"
+                    description="We provide abc kind of services!"
+                    image="/content/dam/flourishtherapy/assets/img/portfolio/2.jpg"
+                    title="This is demo training"/>
+                <textimage_1817177809
+                    jcr:created="{Date}2022-04-27T17:17:02.665-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-27T18:37:44.074-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="flourishtherapy/components/training/textimage"
+                    alttext="tt"
+                    description="CEO of our company"
+                    image="/content/dam/flourishtherapy/assets/img/portfolio/3.jpg"
+                    title="test data"
+                    xyz="Test shehjad"/>
+                <textimage_1513179402
+                    jcr:created="{Date}2022-04-27T18:52:40.175-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-27T18:53:35.813-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="flourishtherapy/components/training/textimage"
+                    alttext="alt"
+                    description="Where it is in AEM"
+                    image="/content/dam/flourishtherapy/assets/img/portfolio/1.jpg"
+                    title="test tile find me"/>
+            </container>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2022-04-20T17:41:42.835-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
+    </jcr:content>
+    <child-page-demo/>
+</jcr:root>

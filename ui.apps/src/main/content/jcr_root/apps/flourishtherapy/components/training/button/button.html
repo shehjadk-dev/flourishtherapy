@@ -1,0 +1,16 @@
+
+<div class="p-5">
+    <button data-sly-test='${properties.button1text != "abc" }' type="button" class="btn btn-${properties.button1color}">${properties.button1text}</button>
+    <button type="button" class="btn btn-${properties.button2color}">${properties.button2text}</button>
+    <button type="button" class="btn btn-${properties.button3color}">${properties.button3text}</button>
+	<button type="button" class="btn btn-${properties.button4color}">${properties.button4text}</button>
+
+
+
+    <p data-sly-test='${properties.age == "adult"}'> I am Adult Changed in eclipse</p>
+
+    <p data-sly-test='${properties.age == "minor"}'> I am Minor</p>
+
+    <p data-sly-test='${properties.age != "minor" && properties.age != "adult" }'> I am unknown</p>
+
+</div>

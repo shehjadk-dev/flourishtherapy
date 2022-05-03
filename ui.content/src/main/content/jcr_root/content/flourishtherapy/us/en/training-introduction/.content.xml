@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-04-22T17:18:54.742-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/flourishtherapy/settings/wcm/templates/blank"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Training introduction"
+        sling:resourceType="flourishtherapy/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="flourishtherapy/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="flourishtherapy/components/container"
+                layout="responsiveGrid">
+                <textimage
+                    jcr:created="{Date}2022-04-22T17:18:28.757-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-22T17:18:54.739-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="flourishtherapy/components/training/textimage"
+                    alttext="company logo"
+                    description="We provide abc kind of services!"
+                    image="/content/dam/flourishtherapy/assets/img/about/3.jpg"
+                    title="About us"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

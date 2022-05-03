@@ -1,0 +1,15 @@
+
+<div class="p-5">
+
+placeholder
+
+    <h1 data-sly-test='${properties.headingtype == "h1"}'>${properties.headingtext}</h1>
+    <h2 data-sly-test='${properties.headingtype == "h2"}'>${properties.headingtext}</h2>
+    <h3 data-sly-test='${properties.headingtype == "h3"}'>${properties.headingtext}</h3>
+    <h4 data-sly-test='${properties.headingtype == "h4"}'>${properties.headingtext}</h4>
+
+  -----------------------------
+
+   <div data-sly-element=${properties.headingtype}>${properties.headingtext}</div>
+
+</div>
