@@ -58,6 +58,9 @@ public class ProfilePreview {
 		name2 = page2.getTitle();
 		name3 = page3.getTitle();
 		name4 = page4.getTitle();
+		
+		// page1.getDescription();
+		// API documentation https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/day/cq/commons/LabeledResource.html#getDescription 
 	}
     
 	public Logger getLogger() {
