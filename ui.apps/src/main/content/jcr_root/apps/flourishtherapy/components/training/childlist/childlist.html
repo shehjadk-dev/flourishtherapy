@@ -1,12 +1,9 @@
 <div data-sly-use.childList="com.flourishtherapy.core.models.ChildList">
 
-
-Title : ${childList.title}
-Path : ${childList.path}
-Child list component
-
-<ul>
+<div data-sly-test="${childList.componentEmpty}"> Component is empty please provide path of parent page to list child pages</div>
+<ul data-sly-test="${!childList.componentEmpty}">
   <li data-sly-list.childPage="${childList.childPages}">
-    <a href="{childPage.path}.html">${childPage.title}</a>
+    <a href="${childPage.path}.html">${childPage.title}</a> <br>
   </li>
 </ul>
+Node type ${childList.nodeType}
