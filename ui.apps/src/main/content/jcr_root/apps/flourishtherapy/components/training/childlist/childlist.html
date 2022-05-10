@@ -1,0 +1,12 @@
+<div data-sly-use.childList="com.flourishtherapy.core.models.ChildList">
+
+
+Title : ${childList.title}
+Path : ${childList.path}
+Child list component
+
+<ul>
+  <li data-sly-list.childPage="${childList.childPages}">
+    <a href="{childPage.path}.html">${childPage.title}</a>
+  </li>
+</ul>

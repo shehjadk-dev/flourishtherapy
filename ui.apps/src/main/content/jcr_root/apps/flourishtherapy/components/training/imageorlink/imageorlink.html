@@ -1,0 +1,4 @@
+<div data-sly-use.imageOrLink="com.flourishtherapy.core.models.ImageOrLink">
+
+<a data-sly-test=${!imageOrLink.showImage} href="${imageOrLink.linkurl}">${imageOrLink.linktext}</a>
+<img data-sly-test=${imageOrLink.showImage} src="${imageOrLink.image}" />
