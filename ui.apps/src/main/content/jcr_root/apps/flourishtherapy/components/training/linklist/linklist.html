@@ -1,0 +1,13 @@
+<div data-sly-use.linklist="com.flourishtherapy.core.models.LinkList">
+
+<div data-sly-test="${linklist.componentEmpty}">
+     Please provide links data
+</div>
+
+<div data-sly-test="${!linklist.componentEmpty}">
+     <ul data-sly-list.link="${linklist.iterator}">
+       <li><a href="${link.valueMap.linkurl}"> ${link.valueMap.linktitle}</a></li>
+     </ul>
+</div>
+
+</div>
