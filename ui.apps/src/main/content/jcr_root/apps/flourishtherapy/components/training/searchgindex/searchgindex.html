@@ -1,0 +1,14 @@
+<div data-sly-use.searchgindex="com.flourishtherapy.core.models.SearchGIndex">
+  <div data-sly-test="${searchgindex.componentEmpty}">
+     Please provide property to search on
+</div>
+
+<div data-sly-test="${!searchgindex.componentEmpty && !searchgindex.emptyResult}">
+     <div data-sly-list.resultitem="${searchgindex.result.hits}">
+        ${resultitem.path}
+     </div>
+</div>
+<div data-sly-test="${searchgindex.emptyResult}">
+ No search result found
+</div>
+</div>
