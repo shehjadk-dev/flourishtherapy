@@ -1,0 +1,11 @@
+<div data-sly-use.profilepreview="com.flourishtherapy.core.models.ProfilePreview">
+	 <div data-sly-list.profileItem="${profilepreview.iterator}" class="card p-5" style="width: 18rem;">
+		  <div class="card-body">
+		    <h5 class="card-title">${profileItem.title}</h5>
+		    <p class="card-text">${profileItem.description}</p>
+		    <a href="${profileItem.path}" class="btn btn-primary">Full profile</a>
+		  </div>
+	</div>
+</div>
+
+Output
